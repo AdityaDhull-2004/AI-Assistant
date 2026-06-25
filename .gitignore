@@ -1,0 +1,22 @@
+# Secrets - NEVER commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# Logs / runtime
+*.log
+*.wav
+
+# Large / downloadable assets
+models/
+caches/
+
+# Local-only project report (LaTeX + PDF) - kept on the author's machine
+report/

@@ -1,0 +1,14 @@
+# Install:  python -m venv .venv ; .venv\Scripts\pip install -r requirements.txt
+openai            # unified client for Groq + Gemini (OpenAI-compatible APIs)
+python-dotenv     # load API keys from .env
+PySide6           # native desktop GUI
+ddgs              # free DuckDuckGo web search (no key)
+requests          # webpage fetch / weather
+faster-whisper    # local speech-to-text fallback
+sounddevice       # microphone capture
+numpy             # audio arrays
+pyttsx3           # Windows TTS fallback
+pycaw             # system volume
+comtypes          # required by pycaw
+pygetwindow       # window management
+keyboard          # media keys
